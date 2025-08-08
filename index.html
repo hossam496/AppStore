@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styel.css">
+    <title>Shopping cart</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="brand">Shopping</a>
+
+ <nav>
+    <ul id="links">
+        <li><a href="logIn.html">Sign In</a></li>
+        <li><a href="register.html">Sign Up</a></li>
+    </ul>
+
+    <ul id="user-info" class="hidden">
+        <li>
+            <a href="#" id="user">
+                <i class="fas fa-user-circle"></i>
+                <span id="username-display"></span>
+            </a>
+        </li>
+        <li class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="badge">0</span>
+            <div class="veiwProduct">
+                <div class="cart-items">
+                    <div class="empty-cart">Your cart is empty</div>
+                </div>
+                <a href="cartProduct.html" class="view-all">View All Products</a>
+            </div>
+        </li>
+        <li>
+            <a href="#" id="logout">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+            </div>
+        </div>
+    </header>
+
+ <section class="home">
+    <div class="container">
+        <div class="product">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="image/Apple-iPhone-12.webp" alt="iPhone 12">
+                <div class="product-desc">
+                    <h2>iPhone 12</h2>
+                    <p>Latest Apple smartphone with A14 Bionic chip and Super Retina XDR display</p>
+                    <span>Color: Blue</span>
+                </div>
+                <div class="product-action">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" style="cursor: pointer;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+<section class="special-offers">
+    <div class="container">
+        <div class="section-title">
+            <h2>العروض الخاصة</h2>
+            <p>استفد من هذه العروض المحدودة الوقت</p>
+        </div>
+        <div class="offers-container">
+
+        </div>
+    </div>
+</section>
+
+<section class="best-sellers">
+    <div class="container">
+        <div class="section-title">
+            <h2>الأكثر مبيعًا</h2>
+            <p>المنتجات الأكثر طلبًا من عملائنا</p>
+        </div>
+        <div class="products-grid">
+
+        </div>
+    </div>
+</section>
+
+
+
+
+    <script src="java script/main.js"></script>
+</body>
+</html>
